@@ -1,0 +1,18 @@
+.absolute-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.max-width{
+    width: 90%;
+    margin: auto;
+}
+.cur-po {
+    cursor: pointer;
+}
+.header-gradient{
+  background: var(--text-gradient-bg);
+  background: var(--text-gradient-1);
+  background-clip: text;
+ -webkit-text-fill-color: transparent;
+}

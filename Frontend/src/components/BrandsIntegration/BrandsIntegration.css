@@ -1,0 +1,34 @@
+.brands-integration{
+    background:var(--background);
+    display: flex;
+    width:100%;
+    height: 450px;
+    justify-content: space-around;
+    margin-top: 24px;
+    /* border: 5px outset purple; */
+    border-radius: 20px;
+}
+.first{
+   margin-right: 34px;
+}
+.box1 {
+    position: relative;
+    margin-top: 4rem;
+    width: 14rem;
+    height: 20rem;
+    /* background-color: #351d4a; */
+    background-color: black;
+    border-top: rgba(143,0,255,.30) 5px solid;
+    border-bottom: rgba(143,0,255,.30) 5px solid;
+    overflow: hidden;
+    transform: skew(-12deg) rotate(-12deg);
+    transition: border 0.6s ease-in; /* Added transition for a smoother effect */
+}
+
+.box1:hover {
+    border: 5px solid #00ffd5;
+  }
+.box-content {
+    transform: skew(12deg) rotate(12deg);
+    color: gold;
+  }

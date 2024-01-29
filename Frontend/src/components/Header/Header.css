@@ -1,0 +1,38 @@
+.header{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Montserrat';
+    text-transform: uppercase;
+    /* padding: 12px 0px 0px; */
+    letter-spacing: 12px;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list li{
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 100%;
+}
+.logo-div{
+  margin-top: 8px;
+}
+.navbar-list{
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+    
+    width: 40%;
+}
